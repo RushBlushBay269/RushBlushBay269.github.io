@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "C:\Users\Nilesh\Documents\USIU\Sem 3\APT 1040\Classwork\Group 7.3.css">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <title>Order</title>
+    <style>
+        .column{
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        .row:after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+
+
+    </style>
+    <script src="Bill.js"></script>
+    
+    
+</head>
+<body>
+    <Form>
+        <div class="bg-img">
+            <div class="container">
+              <div class="topnav">
+                <img class ="logo-img" src = "C:\Users\Nilesh\Documents\USIU\Sem 3\APT 1040\Classwork\FullColor_Transparent Logo (2).png" width="60px" height="60px" >
+                <a href="C:\Users\Nilesh\Documents\USIU\Sem 3\APT 1040\Classwork\Aboutus (Group 7).html">About</a>
+                <a href="C:\Users\Nilesh\Documents\USIU\Sem 3\APT 1040\Classwork\Order Form.html">Menu</a>
+                <a href="C:\Users\Nilesh\Documents\USIU\Sem 3\APT 1040\Classwork\Trial run GRP project.html">Home</a>
+              </div>
+            <div class="row" style="color: white;">
+            <div class="column">
+            
+                <!--Starter Order-->
+                <div>
+                    <h3>
+                        Place Your Order Here
+                    </h3>
+                    <h4>Select Your Starter(s):</h4>            
+                    <div>
+                        <input type="radio" name="starter" id="cheeseBalls" required>
+                        <label for="cheeseBalls">Cheese balls @ 1000/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="starter" id="Stir fried chilly">
+                        <label for="Stir fried chilly">Stir fried chilly @ 800/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="starter" id="Tangri kebabs"
+                        <label for="Tangri kebabs">Tangri kebabs @ 700/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="starter" id="Microwave paneer tikkas">
+                        <label for="Microwave paneer tikkas">Microwave paneer tikkas @ 800/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="starter" id="Crumb friend chicken">
+                        <label for="Crumb friend chicken">Crumb friend chicken @ 900/-</label>
+                    </div>
+                </div>
+                
+
+                <!--Main Dish Order-->
+                <div>
+                    <h4>Select Your Main Dish:</h4>            
+                    <div>
+                        <input type="radio" name="mainDish" id="Bolognaise" required>
+                        <label for="Bolognaise">Bolognaise with tagliatelle @ 1200/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="mainDish" id="steamedPork">
+                        <label for="steamedPork">Steamed pork belly with pickled vegetable @ 1500/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="mainDish" id="chickenRice">
+                        <label for="chickenRice">Steamed Chinese chicken fried rice @ 1000/-</label>
+                    </div>
+                    <div>               
+                        <input type="radio" name="mainDish" id="lambRibs">
+                        <label for="lambRibs">Barbeque flavored lamb ribs with mixed spices @ 1600/-</label>
+                    </div>
+                    <div>               
+                        <input type="radio" name="mainDish" id="chickenSchnitzel">
+                        <label for="chickenSchnitzel">Cheesy chicken schnitzel @ 1000/-</label>
+                    </div>
+                </div>
+
+                <!--Dessert Order-->
+                <div>
+                    <h4>Select Your Dessert(s):</h4>            
+                    <div>                
+                        <input type="radio" name="dessert" id="bananaPudding" required>
+                        <label for="bananaPudding">Banana pudding @ 700/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dessert" id="chocolateMousse">
+                        <label for="chocolateMousse">Classic chocolate mousse @ 800/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dessert" id="carrotCake">
+                        <label for="carrotCake">Carrot cake with ice cream @ 900/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dessert" id="cheeseCake">
+                        <label for="cheeseCake">Cheese cake @ 700/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dessert" id="chocolateFudge">
+                        <label for="chocolateFudge">Chocolate fudge @ 800/-</label>
+                    </div>
+                </div>
+            </div>
+            
+
+                <!--Drinks Order-->
+                <div>
+                    <h4>Select Your Drinks(s):</h4>            
+                    <div>                
+                        <input type="radio" name="drinks" id="Juice" required>
+                        <label for="Juice">Juice @ 500/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="drinks" id="strawberryLemonade">
+                        <label for="strawberryLemonade">Strawberry lemonade @ 700/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="drinks" id="icedTea">
+                        <label for="icedTea">Iced tea @ 600/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="drinks" id="icedCoffee">
+                        <label for="icedCoffee">Iced coffee @ 700/-</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="drinks" id="sparklingWater">
+                        <label for="sparklingWater">Sparkling water @ 500 /-</label>
+                    </div>
+                </div>
+
+
+                <!--Extras Order-->
+                <div>
+                    <h4>Select Any Additional toppings to your Main Dish:</h4>            
+                    <div>                
+                        <input type="checkbox" name="extraCheese" id="extraCheese">
+                        <label for="extraCheese">Extra Cheese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="extraChicken" id="extraChicken">
+                        <label for="extraChicken">Extra Chicken</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="extraPepper" id="extraPepper">
+                        <label for="extraPepper">Extra Pepper</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="extraBbq" id="extraBbq">
+                        <label for="extraBbq">Extra BBQ Sauce</label>
+                    </div>
+                </div>
+
+                <!--Delivery Information-->
+                <div>
+                    <h4>Input The Delivery Information</h4>
+                    <div>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" name="fullName" id="fullName" required placeholder="First name, Last name">
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" maxlength="10"  pattern="[0-9]{10}" required placeholder="07--------">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required placeholder="abcde@xyz.com">
+                    </div>
+                    <div>
+                        <label for="deliveryMethod"> Choose a Delivery option:</label>
+                        <select id="deliveryMethod" required>
+                        <option value="homeDelivery">Home Delivery</option>
+                        <option value="restaurantPickup">Pickup at Restaurant</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="street">Street Name:</label>
+                        <input type="text" name="street" id="street"  placeholder="Apartment No., street address">
+                    </div>
+                    <div>
+                        <label for="city">City Name:</label>
+                        <input type="text" name="city" id="city" >
+                    </div>
+                    <div>
+                        <label for="county">County Name:</label>
+                        <input type="text" name="county" id="county" >
+                    </div>
+                    <div>
+                        <label for="paymentMethod"> Choose a Payment Method:</label>
+                        <select id="paymentMethod" required>
+                        <option value="cod">Cash On Delivery</option>
+                        <option value="pop">Pay On Pickup</option>
+                        </select>
+                    </div>
+                </div>
+         </div>
+         <br>
+
+         <input type="reset" value="Reset">
+         <input type="submit" onclick="compute();" value="Submit"><div id="totalPrice"> </div>
+         
+        
+
+        
+
+    </Form>
+    
+</body>
+</html>
